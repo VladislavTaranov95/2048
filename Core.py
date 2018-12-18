@@ -155,6 +155,7 @@ def game_start():
     print_grid(main_grid)
 
     while i == 0:
+        print("CMD: UP, DOWN, LEFT, RIGHT")
         command = input("Input command: ")
         move(main_grid, command)
         print_grid(main_grid)
